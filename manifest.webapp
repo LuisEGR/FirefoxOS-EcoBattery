@@ -1,0 +1,18 @@
+{
+"name":"EcoBatery",
+"description":"Una aplicaci\u00f3n con la que podr\u00e1s visualizar el porcentaje de carga que queda en la bater\u00eda de t\u00fa dispositivo, adem\u00e1s de que, en el momento que se est\u00e9 termine de cargarse la bater\u00eda, la aplicaci\u00f3n te dar\u00e1 un aviso(con el vibrador y un sonido), para que te enteres que la bater\u00eda ya esta al 100% y no gastes m\u00e1s energ\u00eda de la necesaria, ayudando as\u00ed a cuidar el medio ambiente.",
+"launch_path":"index.html",
+ "installs_allowed_from": ["*"],
+ "version":"1.0",
+    "default_locale": "es",
+"developer":{
+	"name":"Luis E. Gonz\u00e1lez",
+	"url":"http:\/\/www.luiseg.tk"
+	},
+"icons":{
+	"60":"/icons/60.png",
+	"128":"/icons/128.png",
+	"256":"/icons/256.png"
+	},
+	"orientation": "landscape"
+}

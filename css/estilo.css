@@ -1,0 +1,101 @@
+@font-face {
+font-family: 'Monofonto';
+src: url('../font/monofonto.otf') format("opentype");
+}
+@font-face {
+font-family: 'Chunkfive';
+src: url('../font/Chunkfive.otf') format("opentype");
+}
+html,body{
+margin:0px;
+height:100%;
+background-color: #5A6C5C;
+overflow:hidden;
+color:#eee;
+}
+.container{
+	height: 100%;
+	background-color: #111;
+}
+.contenedor{
+	height:93%;
+	width: 90%;
+	position:relative;
+	left:20px;
+	margin-top:15px;
+
+}
+.wait{
+z-index:10;
+margin:0px;
+height:1000%;
+background-color: #111;
+overflow:hidden;
+}
+.spl{
+z-index:10;
+  width:112px;
+  margin-left:-70px;
+  margin-top:-32.5px; 
+    text-align: center;
+}
+/*= Core CSS progress bar code */
+.progressbar {
+    width: 95%;
+    margin-left:auto;
+    margin-right: auto;
+     background: url("../img/progressbar.png") no-repeat 0 -40px;
+}
+.progressbar-completed {
+    height: 20px;
+    margin-left: -1px;
+    background: url("../img/progressbar.png") no-repeat 1px 0;
+}
+.progressbar-completed div {
+    float: right;
+    width: 50%;
+    height: 20px;
+    margin-right: -1px;
+    background: url ("../img/progressbar.png") no-repeat 100% 0;
+    display: inline; /* IE 6 double float bug */
+}
+.carga{
+  background-color:#49A34B;
+  width:100%;
+  height:46px;
+  margin-left: 10px;
+  margin-bottom: -55px;
+  border-radius: 5px;
+}
+#porcentaje{
+  font-family:'Chunkfive';
+  font-size: 36px;
+  text-shadow:2px 2px 5px black;
+   
+}
+#info{
+  font-family:'Chunkfive';
+  font-size: 43px;
+}
+.porc{
+  width:100%;
+  height:56px;
+  margin-left: 10px;
+  margin-bottom: -55px;
+  position: relative;
+ top:120px;
+  color:white;
+}
+#imgbat{
+  width:300px;
+  position:relative;
+  left:-75px;
+  top:-125px;
+  opacity: 1;
+}
+#char{
+position: relative;
+top:-360px;
+left: -30px;
+
+}
