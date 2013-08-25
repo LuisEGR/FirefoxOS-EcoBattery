@@ -45,13 +45,13 @@ $('#porcentaje').html(carga +"%");
                   $('#char').fadeOut(400);
                 }              
                 if(carga >= 80){
-                  imagen = "Battery Full.png";
+                  imagen = "img/Battery Full.png";
                 }else if(carga < 80 && carga >= 50){
-                  imagen = "Battery Medium.png";
+                  imagen = "img/Battery Medium.png";
                 }else if(carga < 50 && carga >=10){
-                  imagen = "Critical Energy.png";
+                  imagen = "img/Critical Energy.png";
                 }else{
-                    imagen = "Battery Empty.png";
+                    imagen = "img/Battery Empty.png";
                 }
                 $('#imgbat').attr("src",imagen);
                 $('#porcentaje').html(carga +"%");
