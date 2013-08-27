@@ -7,23 +7,38 @@
 	<script type="text/javascript" src="script/script.js"></script>
         <link rel="stylesheet" href="css/estilo.css">
         <link rel="stylesheet" href="css/headers.css">
+        <link rel="stylesheet" href="css/switches.css">
 </head>
 <body>
  
 <div class="wait">
   <div class="spl">
       <div class="porc"><span id="porcentaje">100%</span></div>
-          
-            <img src="img/Battery Full.png" id="imgbat" ><br>
+          <div class="carga" id="fluid"></div>
+            <img src="img/Bateria0.png" id="imgbat" ><br>
             <img src="img/charging-mini.png" id="char">
         </div>
-        <center><h1 id="info">Cargando</h1> </center>
+        <center><h1 id="info">Cargando</h1> </center>        
   </div>
-
 </div>
+<div class="menu">
+  <span id="title">Opciones</span>
+  <hr>
+  Color
+  <div class="mini-color verde" id="menu-v"></div>
+  <div class="mini-color plata" id="menu-p"></div>
+  <div class="mini-color azul" id="menu-a"></div>
+  <div class="mini-color cobre" id="menu-c"></div>
+  <div class="mini-color rosa" id="menu-r"></div>
+     <hr>
+  Alarma
+  <label class="pack-checkbox">
+    <input type="checkbox" checked id="alarma">
+    <span></span>
+  </label>
+  </div>
  <audio id="snd" preload="auto" controls>
       <source src="snd2.ogg" type="audio/ogg"></source>
     </audio>
-
 </body>
 </html>
